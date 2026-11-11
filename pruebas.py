@@ -3,7 +3,7 @@ Puedes cambiar BASE_URL por la URL pública de Render (sin barra final).
 """
 import requests
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://fastapi-z7q8.onrender.com"
 
 
 def mostrar(nombre: str, respuesta: requests.Response) -> None:

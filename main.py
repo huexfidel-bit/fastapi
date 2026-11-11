@@ -10,7 +10,7 @@ app = FastAPI(title="Backend TICs: clases 4, 5 y 6")
 # CLASE 4: primeras rutas y parámetros de ruta
 @app.get("/")
 def inicio():
-    return {"Hola": "Mundo"}
+    return {"Hola": "si lo logre, saludos maestra Janet"}
 
 @app.get("/items/{item}")
 def consultar_item(item: str):
